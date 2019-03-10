@@ -1,12 +1,24 @@
 {
-  "name": "nodejs-express",
+  "name": "BancaVirtualAPI",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
   "scripts": {
-    "start": "node ."
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-curl": "^1.0.1",
+    "mongoose": "^5.4.16",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
