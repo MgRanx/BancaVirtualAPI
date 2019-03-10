@@ -2,9 +2,9 @@
     "version": 2,
     "name": "BancaVirtualAPI",
     "builds": [
-        { "src": "index.js", "use": "@now/node" }
+        { "src": "src/index.js", "use": "@now/node" }
     ],
     "routes": [
-        { "src": "/.*", "dest": "index.js" }
+        { "src": "/.*", "dest": "src/index.js" }
     ]
 }
