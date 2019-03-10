@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "BancaVirtualAPI",
+  "builds": [
+    {
+      "src": "**/*.js",
+      "use": "@now/node"
+    }
+  ]
+}
