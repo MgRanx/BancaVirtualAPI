@@ -1,7 +1,6 @@
 {
     "version": 2,
     "name": "BancaVirtualAPI",
-    "alias": ["https://bancavirtualapi.mgranx.now.sh/"],
     "builds": [
         { "src": "index.js", "use": "@now/node" }
     ],
